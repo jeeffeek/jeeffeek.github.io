@@ -21,8 +21,10 @@ header {
 .logo {
     color: black;
 }
+
 .logo-img {
     text-align: right;
+    margin-right: 15px;
 }
 
 .img-logo {
@@ -39,9 +41,9 @@ header {
     text-decoration: none;
     color: black;
     text-align: right;
-    margin-right: 25px;
-    padding: 5%;
+    margin-right: 30px;
 }
+
 .menu a:hover {
     color: gray;
 }
