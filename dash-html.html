@@ -14,19 +14,9 @@
     
     <!-- Exemplo de incorporação de um gráfico Plotly -->
     <div id="plotly-chart"></div>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script>
-        // Adicione seu código JavaScript para gerar o gráfico Plotly aqui
-        // Exemplo:
-        var data = [{
-            x: [1, 2, 3, 4, 5],
-            y: [10, 11, 12, 13, 14],
-            type: 'scatter'
-        }];
-
-        var layout = {
-            title: 'Gráfico de Exemplo',
-        };
-
-        Plotly.newPlot('plotly-chart', data, layout);
-    </script>
+    <script defer src="https://pyscript.net.alpha/pyscript.js"></script>
+    <py-script>
+        frutas = ["maçã", "banana", "laranja", "goiaba"]
+        for x in frutas:
+        print(x)
+    </py-script>
