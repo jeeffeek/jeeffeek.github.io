@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard em Python</title>
+    <!-- Adicione links para os arquivos CSS e JavaScript do seu dashboard, se aplicável -->
+</head>
+<body>
+
+    <h1>Meu Dashboard em Python</h1>
+    
+    <!-- Adicione aqui o código HTML ou incorporação necessários para o seu dashboard -->
+    
+    <!-- Exemplo de incorporação de um gráfico Plotly -->
+    <div id="plotly-chart"></div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        // Adicione seu código JavaScript para gerar o gráfico Plotly aqui
+        // Exemplo:
+        var data = [{
+            x: [1, 2, 3, 4, 5],
+            y: [10, 11, 12, 13, 14],
+            type: 'scatter'
+        }];
+
+        var layout = {
+            title: 'Gráfico de Exemplo',
+        };
+
+        Plotly.newPlot('plotly-chart', data, layout);
+    </script>
