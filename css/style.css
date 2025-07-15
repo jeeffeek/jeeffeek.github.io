@@ -1,0 +1,83 @@
+/* Reset e base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Container central */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.img-logo {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+}
