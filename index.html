@@ -1,72 +1,39 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jefferson Knopf | Portfólio</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
-  <script src="https://unpkg.com/lucide@latest"></script>
-  <style>
-    .gradient-text {
-      background: linear-gradient(to right, #3b82f6, #10b981);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .glass {
-      background: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(8px);
-    }
-    .glow-button:hover {
-      box-shadow: 0 0 10px rgba(59, 130, 246, 0.6);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jefferson Knopf | Portfólio</title>
+    <link rel="shortcut icon" href="./img/jeeffeek.jpg" type="image/png">
+    <link rel="stylesheet" href="css/index.css">
 </head>
-<body class="text-white bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1612832020854-8b7ec9b88749?auto=format&fit=crop&w=1950&q=80');">
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/jeeffeek.jpg" alt="Logo Jefferson" class="img-logo">
+                <h1>Jefferson Knopf</h1>
+            </div>
+            <nav class="menu">
+                <a href="index.html">Início</a>
+                <a href="about.html">Sobre</a>
+                <a href="projects.html">Projetos</a>
+                <a href="contact.html">Contato</a>
+            </nav>
+        </div>
+    </header>
 
-  <header class="fixed w-full bg-black/70 backdrop-blur z-10">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-      <div class="flex items-center gap-2">
-        <div class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center font-bold">JK</div>
-        <span class="font-semibold text-lg text-white">Jefferson <span class="text-green-400">Knopf</span></span>
-      </div>
-      <nav class="flex gap-6 text-sm font-medium text-white">
-        <a href="#">Início</a>
-        <a href="#">Sobre</a>
-        <a href="#">Projetos</a>
-        <a href="#">Skills</a>
-        <a href="#">Contato</a>
-        <i data-lucide="github" class="w-5 h-5 cursor-pointer hover:text-blue-400"></i>
-        <i data-lucide="linkedin" class="w-5 h-5 cursor-pointer hover:text-blue-400"></i>
-        <i data-lucide="mail" class="w-5 h-5 cursor-pointer hover:text-blue-400"></i>
-      </nav>
-    </div>
-  </header>
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>Seja bem-vindo!</h2>
+                <p>Em breve conteúdos sobre meus projetos, experiências e habilidades.</p>
+            </div>
+        </section>
+    </main>
 
-  <main class="h-screen flex items-center justify-center">
-    <div class="text-center px-4 max-w-3xl glass p-10 rounded-xl">
-      <h1 class="text-5xl md:text-6xl font-bold mb-4 gradient-text">Jefferson Knopf</h1>
-      <p class="text-xl md:text-2xl text-blue-400 mb-2">Analista de Sistemas | <span class="text-indigo-400">Arquitetura de Dados</span> & <span class="text-green-400">Business Intelligence</span></p>
-      <p class="text-gray-200 mt-4 mb-8 leading-relaxed">
-        Bacharel em Sistemas de Informação e Pós-graduado em Ciência de Dados.<br>
-        Especialista em arquitetura de dados, pipelines ETL e soluções de BI no Grupo Kyly.
-      </p>
-      <div class="flex flex-wrap justify-center gap-4">
-        <a href="#projetos" class="bg-blue-600 px-6 py-3 rounded-lg font-medium glow-button transition hover:scale-105">
-          Ver Projetos
-        </a>
-        <a href="#contato" class="bg-gray-800 px-6 py-3 rounded-lg font-medium hover:bg-gray-700 transition flex items-center gap-2">
-          <i data-lucide="message-circle" class="w-5 h-5"></i> Entrar em Contato
-        </a>
-        <a href="cv-jefferson.pdf" class="bg-gray-900 px-6 py-3 rounded-lg font-medium hover:bg-gray-800 transition flex items-center gap-2" download>
-          <i data-lucide="download" class="w-5 h-5"></i> Download CV
-        </a>
-      </div>
-    </div>
-  </main>
-
-  <script>
-    lucide.createIcons();
-  </script>
+    <footer>
+        <p>© 2025 Jefferson Knopf</p>
+    </footer>
 </body>
 </html>
